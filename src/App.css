@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.navSection{
+  display: flex;
+  width: 100%;
+  min-width: 100vw;
+  height: 80px;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+
+.user{
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.search{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.search input{
+  width: 80%;
+  height: 2rem;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: medium;
+}
+
+.proSection{
+  display: flex;
+  background-color: white;
+}
+
+.imageBox{
+  width: 80%;
+  padding-left: 20px;
+}
+
+.proImage{
+  width: 80%;
+}
+
+.proTitle h2{
+  margin: 10px;
+}
+
+.subMenu ul li{
+  list-style: none;
+  margin: 30px;
+  margin-top: 10px;
+}
+
+.subMenu{
+  background-color: gray;
+  color: azure;
+  height: 50px;
+}
+
+.subMenu ul{
+  display: inline-flex;
+  
+}
+
+.pageSection{
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 10px;
+}
+
+.pageImg{
+  width: 250px;
+  height: 250px;
+}
+
+.pageImg img{
+  width: 100%;
+}
+
+.ind-image{
+  width: 500px;
+  height: 500px;
+}
+
+.ind-section{
+  display: flex;
+}
+
+.ind-section img{
+  width: 100%;
+}
+
+.ind-details{
+  padding: 20px;
+}
+
+.space{
+  margin: 10px;
+}
+
+.ind-details button{
+  padding: 10px;
+  background-color: orangered;
+  width: 10rem;
+  border-radius: 5px;
+  columns: white;
+}
